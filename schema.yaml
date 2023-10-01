@@ -1,6 +1,6 @@
 Columns:
   label: object
   text: object
-
+  
 Target:
   name: label
