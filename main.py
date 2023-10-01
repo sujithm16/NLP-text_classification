@@ -3,8 +3,6 @@ from src.NLPtc.pipeline.stage1_data_ingestion import DataIngestionTrainingPipeli
 from src.NLPtc.pipeline.stage2_data_validation import DataValidationTrainingPipeline
 
 
-
-
 STAGE_NAME = "Data Ingestion stage"
 
 try:
@@ -20,8 +18,8 @@ STAGE_NAME = "Data Validation stage"
 
 try:
     logger.info(f">>>>>> {STAGE_NAME} started <<<<<<")
-    obj = DataValidationTrainingPipeline()
-    obj.main()
+    data_val = DataValidationTrainingPipeline()
+    data_val.main()
     logger.info(f">>>>>> {STAGE_NAME} completed <<<<<<")
 except Exception as e:
     logger.exception(e)
