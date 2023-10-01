@@ -3,7 +3,7 @@ artifacts_root: artifacts
 
 data_ingestion:
   root_dir: artifacts/data_ingestion
-  source_URL: https://github.com/entbappy/Branching-tutorial/raw/master/winequality-data.zip
+  source_URL: https://github.com/sujithm16/data-science-projects/raw/main/SMSSpamCollection.zip
   local_data_file: artifacts/data_ingestion/data.zip
   unzip_dir: artifacts/data_ingestion
 
@@ -11,7 +11,7 @@ data_ingestion:
 
 data_validation:
   root_dir: artifacts/data_validation
-  unzip_data_dir: artifacts/data_ingestion/winequality-red.csv
+  unzip_data_dir: artifacts/data_ingestion/SMSSpamCollection.tsv
   STATUS_FILE: artifacts/data_validation/status.txt
 
 
