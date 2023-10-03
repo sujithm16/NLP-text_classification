@@ -160,6 +160,9 @@ cython_debug/
 #.idea/
 
 artifacts
+trials.ipynb
 03_data_transformation.ipynb
+
+
 
 

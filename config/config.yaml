@@ -19,10 +19,7 @@ data_validation:
 data_transformation:
   root_dir: artifacts/data_transformation
   data_path: artifacts/data_ingestion/SMSSpamCollection.tsv
-  xtrain_data_path: artifacts/data_validation/xtrain.csv
-  xtest_data_path: artifacts/data_validation/xtest.csv
-  ytrain_data_path: artifacts/data_validation/ytrain.csv
-  ytest_data_path: artifacts/data_validation/ytest.csv
+  clean_data_path: artifacts/data_validation/sms_cleaned.csv
 
 
 
